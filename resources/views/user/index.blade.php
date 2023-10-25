@@ -8,7 +8,7 @@
     <!--Remix icons-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!--css-->
-    <link rel="stylesheet" href="{{url('dist/css/style.css')}}">
+    <link rel="stylesheet" href="{{url('assets/user/css/style.css')}}">
 
     <title>Document</title>
 </head>
@@ -226,7 +226,7 @@
     <!--=====Scroll Reveal=====-->
     <script src=""></script>
 
-    <script src="dist/js/main.js"></script>
+    <script src="{{url('assets/user/js/main.js')}}"></script>
 
 
 </body>

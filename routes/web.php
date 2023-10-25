@@ -18,5 +18,10 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('register');
 });
+
+route::view('/user', 'user/index');
+route::view('/layout-su', 'superadmin/layout');
+Route::view('/dashboard-su', 'superadmin/dashboard');
+
