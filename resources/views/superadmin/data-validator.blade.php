@@ -5,14 +5,13 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>DataTable Jquery</h3>
-                <p class="text-subtitle text-muted">Powerful interactive tables with datatables (jQuery required)</p>
+                <h3>Data Validator</h3>
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">DataTable Jquery</li>
+                        <li class="breadcrumb-item active" aria-current="page">Data Validator</li>
                     </ol>
                 </nav>
             </div>
@@ -22,16 +21,17 @@
     <section class="section">
         <div class="card">
             <div class="card-header">
-                Jquery Datatable
+                Data validator
             </div>
             <div class="card-body">
+
                 <table class="table" id="table1">
                     <thead>
                         <tr>
-                            <th>Name</th>
+                            <th>Nama</th>
                             <th>Email</th>
-                            <th>Phone</th>
-                            <th>City</th>
+                            <th>No.Hp</th>
+                            <th>Alamat</th>
                             <th>Status</th>
                         </tr>
                     </thead>

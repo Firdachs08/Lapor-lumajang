@@ -13,15 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-  //  return view('welcome');
-//});
-
 Route::get('/', function () {
-    return view('register');
+    return view('welcome');
 });
+
+//Route::get('/', function () {
+    //return view('register');
+//});
 
 route::view('/user', 'user/index');
 route::view('/layout-su', 'superadmin/layout');
-Route::view('/dashboard-su', 'superadmin/dashboard');
-
+route::view('/dashboard-su', 'superadmin/dashboard');
+route::view('/data-admin-view', 'superadmin/data-admin');
+route::view('/data-dinas-view', 'superadmin/data-dinas');
+route::view('/data-user-view', 'superadmin/data-user');
+route::view('/data-validator-view', 'superadmin/data-validator');
