@@ -1,5 +1,3 @@
-
-
         <div class="sidebar-wrapper active">
             <div class="sidebar-header position-relative">
                 <div class="d-flex justify-content-between align-items-center">
@@ -42,7 +40,7 @@
                                 <a href="/data-admin">Data Admin</a>
                             </li>
                             <li class="submenu-item ">
-                                <a href="component-badge.html">Data Validator</a>
+                                <a href="{{ route('data-validator') }}">Data Validator</a>
                             </li>
                             <li class="submenu-item ">
                                 <a href="component-breadcrumb.html">Data Dinas</a>

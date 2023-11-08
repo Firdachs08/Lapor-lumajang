@@ -51,13 +51,13 @@
             </li>
             
             <li
-                class="sidebar-item  has-sub active">
+                class="sidebar-item  has-sub ">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-stack"></i>
                     <span>Master Data</span>
                 </a>
                 <ul class="submenu ">
-                    <li class="submenu-item active">
+                    <li class="submenu-item ">
                         <a href="/data-admin">Data Admin</a>
                     </li>
                     
@@ -74,7 +74,7 @@
             </li>     
             
             <li
-                class="sidebar-item ">
+                class="sidebar-item active">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-file-earmark-spreadsheet-fill"></i>
                     <span>Pengaduan</span>
