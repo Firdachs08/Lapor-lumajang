@@ -30,6 +30,5 @@ route::view('/data-admin-view', 'superadmin/data-admin');
 route::view('/data-dinas-view', 'superadmin/data-dinas');
 route::view('/data-user-view', 'superadmin/data-user');
 route::view('/data-validator-view', 'superadmin/data-validator');
-Route::get('/data-admin',[DataAdminController::class, 'index']);
-
+//route::get('/data-admin',[DataAdminController::class, 'index']);
 
