@@ -39,7 +39,7 @@
                         </a>
                         <ul class="submenu ">
                             <li class="submenu-item ">
-                                <a href="component-alert.html">Data Admin</a>
+                                <a href="/data-admin">Data Admin</a>
                             </li>
                             <li class="submenu-item ">
                                 <a href="component-badge.html">Data Validator</a>
