@@ -37,7 +37,7 @@
                         </a>
                         <ul class="submenu ">
                             <li class="submenu-item ">
-                                <a href="/data-admin">Data Admin</a>
+                                <a href="{{ route('data-admin') }}">Data Admin</a>
                             </li>
                             <li class="submenu-item ">
                                 <a href="{{ route('data-validator') }}">Data Validator</a>

@@ -34,6 +34,7 @@ Route::get('/', function () {
 //route::view('/layout-su', 'superadmin/layout');
 //route::view('/dashboard-su', 'superadmin/dashboard');
 route::view('/data-admin-view', 'superadmin/data-admin');
+<<<<<<< HEAD
 //Route::get('/data-validator', [App\Http\Controllers\DataValidatorController::class, 'superadmin'])->name('data-validator');
 //route::view('/data-dinas-view', 'superadmin/data-dinas');
 //route::view('/data-user-view', 'superadmin/data-user');
@@ -45,4 +46,10 @@ Route::get('/data-admin',[App\Http\Controllers\DataAdminController::class, 'inde
 Route::get('/pengaduan',[App\Http\Controllers\PengaduanController::class, 'index'])->name('pengaduan');
 
 
+=======
+route::view('/data-dinas-view', 'superadmin/data-dinas');
+route::view('/data-user-view', 'superadmin/data-user');
+route::view('/data-validator-view', 'superadmin/data-validator');
+//route::get('/data-admin',[DataAdminController::class, 'index']);
+>>>>>>> 0d83e3d77c473a196c20f49bdad1abb14487bc12
 
